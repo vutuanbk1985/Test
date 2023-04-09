@@ -1,0 +1,108 @@
+//out:false
+/* Popup style */
+
+.popup-toggle {
+    z-index: 100;
+    }
+    .fa-solid.fa-circle-check.fa-2xl {
+      z-index: 99;
+      position: absolute;
+      left: 47%;
+      top: 25px;
+      
+    }
+    .close-btn  {
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      background: none;
+      border: none;
+    }
+    .outline-receipt {
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      background: none;
+      width: 100%;
+      /* width: fit-content; */
+      /* display: none; */
+      position: relative;
+    }
+    .receipt-popup {
+      background-color: black;
+      color: white;
+      border-radius: 15px;
+      padding: 10px;
+      position: relative;
+      /* min-width: fit-content; */
+      max-width: 40%;
+      display: none;
+      
+    }
+    /* #receipt-popup:active {
+      display: block;
+    }
+    #outline-receipt:active {
+      display: block;
+    } */
+    .active   {
+      display: block;
+      position: absolute;
+      top: -700px;
+      z-index: 500;
+    }
+    .passive  {
+      opacity: 0.4;
+    }
+    .receipt-popup-top  {
+      text-align: center;
+      border-bottom: 1px solid rgb(102, 100, 98);
+      padding: 50px 10px 30px 10px;
+    }
+    .receipt-popup-top-2  {
+      text-align: center;
+      border: none;
+      padding: 20px 10px 20px 10px;
+    }
+    
+    
+    .receipt-popup-detail {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 15px 0px;
+    }
+    
+    .receipt-popup-detail-1,
+    .receipt-popup-detail-2,
+    .receipt-popup-detail-3,
+    .receipt-popup-detail-4 {
+      border: 1px solid white;
+      flex-basis: 45%;
+      border-radius: 15px;
+      text-align: left;
+      padding-left: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      
+    }
+    .get-receipt  {
+      display: flex;
+      justify-content: center;
+    }
+    .get-receipt-btn  {
+      color: white;
+      background-color: none;
+      background: none;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size: medium;
+      border: none;
+    }
+    .fa-solid.fa-download {
+      margin-right: 10px;
+    }
+    h2  {
+      margin-top: 20px;
+      
+    }

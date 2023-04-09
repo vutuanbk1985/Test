@@ -1,0 +1,132 @@
+//out:false
+@media screen and (max-width: 992px) {
+    .price-tab {
+      display: flex;
+      visibility: visible;
+      margin-bottom: 0px;
+    }
+  
+    .receipt {
+      display: none;
+      visibility: hidden;
+    }
+  
+    .left-panel {
+      width: 100%;
+      padding-left: 15%;
+      padding-right: 15%;
+      z-index: 99;
+      border: none;
+    }
+  
+    .input {
+      width: 100%;
+    }
+  
+    h2 {
+      font-size: medium;
+    }
+  
+    .receipt-small {
+      background-color: #eae7e7;
+      z-index: 100;
+      padding: 5% 5%;
+    }
+  
+    .visibility-toggle {
+      visibility: visible;
+      display: block;
+      z-index: 99;
+    }
+    .receipt-popup-detail-1,
+    .receipt-popup-detail-2,
+    .receipt-popup-detail-3,
+    .receipt-popup-detail-4 {
+      border: 1px solid white;
+      flex-basis: 100%;
+      border-radius: 15px;
+      text-align: center;
+      padding-left: 0px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      
+    }
+    .active   {
+      display: block;
+      position: absolute;
+      top: -800px;
+      z-index: 500;
+    }
+    .receipt-popup  {
+      max-width: 60%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    body {
+      margin: 0 auto;
+    }
+    .left-panel {
+      padding-left: 0 ;
+      padding-right: 0;
+    }
+    .price-tab {
+      display: flex;
+      visibility: visible;
+      margin-bottom: 0px;
+    }
+  
+    .receipt {
+      display: none;
+      visibility: hidden;
+    }
+  
+    .left-panel {
+      width: 100%;
+      padding-left: 2%;
+      padding-right: 2%;
+      z-index: 99;
+    }
+  
+    .input {
+      width: 100%;
+    }
+  
+    h2 {
+      font-size: medium;
+    }
+  
+    .receipt-small {
+      background-color: #eae7e7;
+      z-index: 100;
+      padding: 5% 5%;
+    }
+  
+    .visibility-toggle {
+      visibility: visible;
+      display: block;
+      z-index: 100;
+    }
+    .receipt-popup-detail-1,
+    .receipt-popup-detail-2,
+    .receipt-popup-detail-3,
+    .receipt-popup-detail-4 {
+      border: 1px solid white;
+      flex-basis: 100%;
+      border-radius: 15px;
+      text-align: center;
+      padding-left: 0px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      
+    }
+    .active   {
+      display: block;
+      position: absolute;
+      top: -800px;
+      z-index: 500;
+    }
+    .receipt-popup  {
+      max-width: 100%;
+    }
+  }
